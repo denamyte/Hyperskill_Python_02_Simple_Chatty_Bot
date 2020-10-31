@@ -1,2 +1,4 @@
-print("I'm a crazy bot named Hades")
-print("Because I was born in 2020.")
+print('Hello! My name is Aid.')
+print('I was created in 2020.')
+print('Please, remind me your name.')
+print('What a great name you have, {}!'.format(input()))
