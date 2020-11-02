@@ -33,7 +33,13 @@ def count():
 
 def test():
     print("Let's test your programming knowledge.")
-    # write your code here
+    print("What is a python?")
+    print("1. A human language.")
+    print("2. A large snake.")
+    print("3. Just a word, I don't care.")
+    print("4. Wat do ya mean?.")
+    while input() != "2":
+        print("Please, try again.")
     print('Completed, have a nice day!')
 
 
@@ -45,5 +51,5 @@ greet('Aid', '2020')  # change it as you need
 remind_name()
 guess_age()
 count()
-# ...
+test()
 end()
